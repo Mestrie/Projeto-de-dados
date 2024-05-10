@@ -2,7 +2,7 @@
 import pandas as pd
 import plotly.express as px
 #Visualizar a base de dados
-tabela = pd.read_csv("cancelamentos.csv")
+tabela = pd.read_csv("cancelamentos_sample.csv")
 tabela = tabela.drop(columns="CustomerID")
 print(tabela)
 #Corrigindo a base de dados
